@@ -1,0 +1,49 @@
+p {
+  margin-bottom: 50px;
+}
+
+.box {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  background: gray;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid-1 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.grid-2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+.grid-3 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-4 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-5 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto;
+}
+
+.grid-6 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto;
+}
